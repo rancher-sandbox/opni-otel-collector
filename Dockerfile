@@ -7,7 +7,7 @@ WORKDIR /otel
 COPY . .
 
 RUN CGO_ENABLED=0 builder --config=ocb-config.yaml
-RUN chmod +x otelcol-custom
+RUN chmod +x bin/otelcol-custom
 
 FROM alpine:latest as prep
 RUN apk --update add ca-certificates
@@ -59,7 +59,7 @@ COPY --from=journal /etc/group /etc/group
 COPY --from=journal /etc/passwd /etc/passwd
 
 COPY --from=prep /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY --from=builder /otel/otelcol-custom /
+COPY --from=builder /otel/bin/otelcol-custom /
 
 USER scratchuser
 
