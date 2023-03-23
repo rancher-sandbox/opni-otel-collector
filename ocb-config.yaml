@@ -52,4 +52,3 @@ processors:
 
 replaces:
 - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230321233240-2cd170f43b30
-- github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor => github.com/dbason/opentelemetry-collector-contrib/processor/k8sattributesprocessor v0.0.0-20230322214551-8b141c63cb62
