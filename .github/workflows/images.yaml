@@ -32,4 +32,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/opni-otel-collector:${{ env.TAG_NAME }}-0.71.0
+        tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/opni-otel-collector:${{ env.TAG_NAME }}-0.74.0
