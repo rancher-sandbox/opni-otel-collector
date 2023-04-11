@@ -21,7 +21,6 @@ builds:
           goarch: "386"
         - goos: windows
           goarch: arm64
-      dir: distributions/otelcol/_build
       binary: otelcol-custom
       ldflags:
         - -s
