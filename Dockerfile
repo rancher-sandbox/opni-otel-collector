@@ -18,7 +18,7 @@ RUN mkdir -p /tmp
 
 FROM debian:11.6 as journal
 RUN apt update
-RUN apt install -y systemd=247.3-7+deb11u1
+RUN apt install -y systemd=247.3-7+deb11u2
 RUN useradd -u 10001 scratchuser \
     && usermod -a -G systemd-journal scratchuser \ 
     && usermod -a -G root scratchuser
