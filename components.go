@@ -44,6 +44,7 @@ import (
 	journaldreceiver "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver"
 	filelogreceiver "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver"
 	k8seventsreceiver "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8seventsreceiver"
+	k8sobjectsreceiver "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver"
 	kubeletstatsreceiver "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver"
 )
 
@@ -72,6 +73,7 @@ func components() (otelcol.Factories, error) {
 		journaldreceiver.NewFactory(),
 		filelogreceiver.NewFactory(),
 		k8seventsreceiver.NewFactory(),
+		k8sobjectsreceiver.NewFactory(),
 		kubeletstatsreceiver.NewFactory(),
 	)
 	if err != nil {

@@ -28,6 +28,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8seventsreceiver v0.74.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver v0.74.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver v0.74.0
@@ -285,4 +286,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230321233240-2cd170f43b30
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2
