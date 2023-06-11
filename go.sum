@@ -163,8 +163,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230321233240-2cd170f43b30 h1:5aHWgFT13Ya76MmxXfHlvi3B7mNyYbp4S/qXNqb3AAg=
-github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230321233240-2cd170f43b30/go.mod h1:l2o5Y4w6Gy+KSDuIQgF9XHXhOEEcskuh5cjEp2VUTdY=
+github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2 h1:1uGGk0qh7vHMRKgT6C6B5fF4jVhUfIlQTPBgiHcGjkU=
+github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2/go.mod h1:l2o5Y4w6Gy+KSDuIQgF9XHXhOEEcskuh5cjEp2VUTdY=
 github.com/dennwc/varint v1.0.0 h1:kGNFFSSw8ToIy3obO/kKr8U9GZYUAxQEVuix4zfDWzE=
 github.com/dennwc/varint v1.0.0/go.mod h1:hnItb35rvZvJrbTALZtY/iQfDs48JKRG1RPpgziApxA=
 github.com/digitalocean/godo v1.95.0 h1:S48/byPKui7RHZc1wYEPfRvkcEvToADNb5I3guu95xg=
@@ -693,6 +693,8 @@ github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldrecei
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver v0.74.0/go.mod h1:9nk8oajY1ahAkePWS8wnI0Ng7h0ug3YEM/u/F3jDrtY=
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8seventsreceiver v0.74.0 h1:pXHd2pBilwnUNMpdEMODodLFrlXumTRvM+KfpD5Qzt0=
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8seventsreceiver v0.74.0/go.mod h1:C9KZ9ZiS1rts9RbYF8NcxYyAv+mJqJOyd3JXQzTLyUU=
+github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver v0.74.0 h1:1QN4VwvhszQXPn5cTKwOkysN/CAEUPzjVh7lqOvnwGU=
+github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver v0.74.0/go.mod h1:hESFriUK2Ufw9TLMqRdf+3sIeCzuYrBTwdAUYCUEDOk=
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver v0.74.0 h1:NWd9+rQTd6pELLf3copo7CEuNgKp90kgyhPozpwax2U=
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver v0.74.0/go.mod h1:anSbwGOousKpnNAVMNP5YieA4KOFuEzHkvya0vvtsaI=
 github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver v0.74.0 h1:pxCZO83zeSVPtNxjP2PD2DLQH+fzqS+7++tMHTVRp/8=
