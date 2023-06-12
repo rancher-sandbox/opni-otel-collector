@@ -286,4 +286,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230612004839-109400ed0c16

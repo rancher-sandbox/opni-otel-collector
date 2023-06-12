@@ -163,8 +163,8 @@ github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ3
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2 h1:1uGGk0qh7vHMRKgT6C6B5fF4jVhUfIlQTPBgiHcGjkU=
-github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230611231213-a7acf11de2a2/go.mod h1:l2o5Y4w6Gy+KSDuIQgF9XHXhOEEcskuh5cjEp2VUTdY=
+github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230612004839-109400ed0c16 h1:tAISBrFQS64VO+UwvuwY8M4u2f/gxAOVzpu/iYbauIs=
+github.com/dbason/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230612004839-109400ed0c16/go.mod h1:l2o5Y4w6Gy+KSDuIQgF9XHXhOEEcskuh5cjEp2VUTdY=
 github.com/dennwc/varint v1.0.0 h1:kGNFFSSw8ToIy3obO/kKr8U9GZYUAxQEVuix4zfDWzE=
 github.com/dennwc/varint v1.0.0/go.mod h1:hnItb35rvZvJrbTALZtY/iQfDs48JKRG1RPpgziApxA=
 github.com/digitalocean/godo v1.95.0 h1:S48/byPKui7RHZc1wYEPfRvkcEvToADNb5I3guu95xg=
